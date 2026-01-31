@@ -27,15 +27,15 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "workflow.run"
-args = "Run Input Script"
+args = "Run Main Script"
 
 [[workflows.workflow]]
-name = "Run Input Script"
+name = "Run Main Script"
 author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python3 input.py"
+args = "python3 main.py"
 
 [workflows.workflow.metadata]
 outputType = "console"
