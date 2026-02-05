@@ -1,2 +1,18 @@
 num1 = float(input("Enter first number: "))
-print(f"First number is {num1}")
+operator = input("Enter operator (+, -, *, /): ")
+num2 = float(input("Enter second number: "))
+if operator == "+":
+   result = num1 + num2
+   print("The result is", result)
+elif operator == "-":
+   result = num1 - num2
+   print("The result is", result)
+elif operator == "*":
+   result = num1 * num2
+   print("The result is", result)
+elif operator == "/":
+   if num2 != 0:
+      result = num1 / num2
+      print("The result is", result)
+   else:
+      print("Error: Division by zero is not allowed.")
