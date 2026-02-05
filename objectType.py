@@ -1,0 +1,7 @@
+print(type("3.1415"))
+print(type(3.1415))
+print(type(3))
+print(type(True))
+print(type(None))
+print(type(print))
+print(type(type))
