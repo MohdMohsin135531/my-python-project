@@ -32,6 +32,7 @@ args = "Run Main Script"
 [[workflows.workflow]]
 name = "Run Main Script"
 author = "agent"
+mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
