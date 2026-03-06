@@ -10,7 +10,7 @@ def analyze_password(password: str) -> tuple[str, list[str]]:
     is_common = password.lower() in COMMON_PASSWORDS
     if has_length and has_special and has_upper and has_lower and has_digit and not is_common:
         return "Strongest", ["You use a very strong password"]
-    elif 
+    
 
 
 def main():
