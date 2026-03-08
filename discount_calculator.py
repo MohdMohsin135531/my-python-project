@@ -8,5 +8,5 @@ def apply_discount(price, discount):
     if discount < 0 or discount > 100:
         return "The discount should be between 0 and 100"
     discount_money = discount / 100 * price
-    final_price = price - discount_amount
+    final_price = price - discount_money
     return final_price
