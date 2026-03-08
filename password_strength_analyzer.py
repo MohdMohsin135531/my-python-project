@@ -13,10 +13,10 @@ def analyze_password(password: str) -> tuple[str, list[str]]:
     
 
 
-def main():
+def main(): 
     password = input("Enter a strong password: ")
     strength, feedback = analyze_password(password)
-    print(f"Strength = {strength}")
+    print(f"Strength = {strength}") 
     print(f"Feedback = {feedback}")
 
 if __name__ == "__main__":
