@@ -11,7 +11,7 @@ def analyze_password(password: str) -> tuple[str, list[str]]:
     is_common = password.lower() in COMMON_PASSWORDS
     checks = [has_length, has_upper, has_lower, has_digit, has_special, not is_common]
     rule = sum(checks)
-    feedback = ["8 characters✅" if has_length else "Not 8 characters❌", 
+    feedback = ["At least 8 characters✅" if has_length else "Not 8 characters❌", 
                 "Upper case✅" if has_upper else "No Upper case❌", 
                 "Lower case✅" if has_lower else "No Lower case❌", 
                 "Digits✅" if has_digit else "No Digits❌", 
