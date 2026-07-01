@@ -1,4 +1,4 @@
-# write your code here
+ # write your code here
 def get_number(prompt: str) -> float:
     """        
     Ask the user for a positive number with validation.            
@@ -7,7 +7,7 @@ def get_number(prompt: str) -> float:
     Args:            
     prompt: The message to show the user            
     Returns:            
-    A positive float number            
+    A positive float number 
     """
     while True:
         try: 
